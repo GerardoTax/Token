@@ -9,10 +9,8 @@ package com.mycompany.practicatoken;
  *
  * @author dell
  */
-public class Ejecutador {
-    public static void main(String args[]){
-        Ventana tmp= new Ventana();
-        tmp.setVisible(true);
-       
+class ExcepcionInicio extends Exception {
+     public ExcepcionInicio(String message) {
+        super(message);
     }
 }

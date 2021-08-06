@@ -9,10 +9,6 @@ package com.mycompany.practicatoken;
  *
  * @author dell
  */
-public class Ejecutador {
-    public static void main(String args[]){
-        Ventana tmp= new Ventana();
-        tmp.setVisible(true);
-       
-    }
+public enum Token {
+    IDENTIFICADOR,NUMEROENTERO,NUMERODECIMAL,SIMBOLOS,ERROR;
 }
